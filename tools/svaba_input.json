@@ -1,0 +1,71 @@
+{
+    "name":"svaba-test",
+    "tbam": 
+    {
+        "class":"File",
+        "location":"/home/ubuntu/volume/Benchmark/TestBAM/HG002.hs37d5.60x.1.bam",
+        "secondaryFiles": [
+            {
+                "class":"File",
+                "location":"/home/ubuntu/volume/Benchmark/TestBAM/HG002.hs37d5.60x.1.bam.bai"
+            }
+        ]
+    },
+    "nbam": [
+        {
+            "class":"File",
+            "location":"/home/ubuntu/volume/Benchmark/TestBAM/HG004.hs37d5.60x.1.bam",
+            "secondaryFiles": [
+                {
+                    "class":"File",
+                    "location":"/home/ubuntu/volume/Benchmark/TestBAM/HG004.hs37d5.60x.1.bam.bai"
+                }
+            ]
+        },
+        {
+            "class":"File",
+            "location":"/home/ubuntu/volume/Benchmark/TestBAM/HG003.hs37d5.60x.1.bam",
+            "secondaryFiles": [
+                {
+                    "class":"File",
+                    "location":"/home/ubuntu/volume/Benchmark/TestBAM/HG003.hs37d5.60x.1.bam.bai"
+                }
+            ]
+        }
+    ],
+    "ref": {
+        "class":"File",
+        "location":"/home/ubuntu/volume/Benchmark/RefGenome/hs37d5.fa",
+        "secondaryFiles": [
+            {
+                "class":"File",
+                "location":"/home/ubuntu/volume/Benchmark/RefGenome/hs37d5.fa.amb"
+            },
+            {
+                "class":"File",
+                "location":"/home/ubuntu/volume/Benchmark/RefGenome/hs37d5.fa.ann"
+            },
+            {
+                "class":"File",
+                "location":"/home/ubuntu/volume/Benchmark/RefGenome/hs37d5.fa.bwt"
+            },
+            {
+                "class":"File",
+                "location":"/home/ubuntu/volume/Benchmark/RefGenome/hs37d5.fa.fai"
+            },
+            {
+                "class":"File",
+                "location":"/home/ubuntu/volume/Benchmark/RefGenome/hs37d5.fa.pac"
+            },
+            {
+                "class":"File",
+                "location":"/home/ubuntu/volume/Benchmark/RefGenome/hs37d5.fa.sa"
+            }
+        ]
+    },
+    "dbsnp": {
+        "class":"File",
+        "location":"/home/ubuntu/volume/Benchmark/RefGenome/All_20180423.vcf.gz"
+    },
+    "threads": 8
+}
